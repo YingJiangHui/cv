@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section :style="whenPrintBreakPage?{pageBreakBefore: 'always'}:{}">
     <slot name="title" />
     <main>
       <slot/>
@@ -11,7 +11,14 @@
 
 export default {
   name: "Section",
+  props: {
+    whenPrintBreakPage: {
+      default: false,
+      type: Boolean
+    }
+  }
 }
+
 </script>
 
 <style scoped>

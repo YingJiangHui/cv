@@ -1,5 +1,5 @@
 <template>
-  <a href="{{href}}"><slot/></a>
+  <a :href="href" :target="target"><slot/></a>
 </template>
 
 <script>
@@ -7,6 +7,7 @@ export default {
   name: "Link",
   props:{
     href:String,
+    target:String,
   }
 
 }

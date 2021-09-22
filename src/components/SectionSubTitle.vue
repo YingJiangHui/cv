@@ -4,7 +4,7 @@
       <slot/>
     </h3>
     <ul>
-      <li v-for="link of links"><Link href="{{link.href}}">{{link.text}}</Link></li>
+      <li v-for="link of links"><Link :href="link.href" :target="'_blank'">{{link.text}}</Link></li>
     </ul>
   </header>
 
@@ -33,9 +33,13 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-
+ul>li{
+  margin-left: 1em;
+  display: inline-block;
+}
 h3 {
-  margin-top: .8em;
+  margin-top: .4em;
+  margin-bottom: .4em;
   color: #666
 }
 
