@@ -22,7 +22,7 @@ import Link from './components/Link.vue'
       <Section>
         <template v-slot:title>
           <SectionTitle>工作经历</SectionTitle>
-          <SectionSubTitle>杭州新之科技有限公司（2020-10 - 至今）</SectionSubTitle>
+          <SectionSubTitle>杭州新之电子商务有限公司（2020-10 - 至今）</SectionSubTitle>
           <Paragraph>公司方向主要以可再生资源交易相关，提供再生资源的回收、加工和销售，完善回收的资金、物流数据链。通过与银行等各政府部门深度合作实现大额支付。</Paragraph>
           <Paragraph>前端技术主要以React为主，期间参加相关产品的技术选型，前端工程化相关构建，功能开发，维护迭代等。</Paragraph>
         </template>
