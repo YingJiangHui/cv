@@ -44,16 +44,16 @@ import Link from './components/Link.vue'
         <SectionSubTitle>音视频采集</SectionSubTitle>
         <Paragraph>介绍：用于确认用户对于办理某业务的意向</Paragraph>
         <Paragraph>负责：项目的完整开发。主要包含：技术选型，项目搭建，音视频录制功能、TTS语言播报功能、语音识别功能</Paragraph>
-        <Paragraph>技术：<HighLightText>webRTC</HighLightText>、webWorker、webSocket、TypeScript、React的移动端多媒体H5应用</Paragraph>
+        <Paragraph>技术：webRTC、webWorker、webSocket、TypeScript、React的移动端多媒体H5应用</Paragraph>
       </Section>
       <Section :whenPrintBreakPage="true">
         <template v-slot:title>
           <SectionTitle>技能</SectionTitle>
           <Paragraph>熟悉页面制作技巧，能将设计稿完美还原</Paragraph>
           <Paragraph>熟练掌握<HighLightText>TypeScript</HighLightText>，包括：泛型、类型工具函数等，对其他的强类型语言也有所了解</Paragraph>
-          <Paragraph>熟练掌握<HighLightText>React</HighLightText>及其周边相关技术，包括Redux、hook等，了解React渲染调度机制</Paragraph>
+          <Paragraph>熟练掌握<HighLightText>React</HighLightText>及其周边相关技术，包括Redux、hook等</Paragraph>
           <Paragraph>熟练掌握<HighLightText>Vue</HighLightText>全家桶，包括Vuex、VueRouter</Paragraph>
-          <Paragraph>掌握<HighLightText>Webpack</HighLightText>配置，有插件开源经历</Paragraph>
+          <Paragraph>掌握<HighLightText>Webpack</HighLightText>配置</Paragraph>
           <Paragraph>熟悉<HighLightText>ES6</HighLightText>语法，包括Promise、析构赋值等</Paragraph>
           <Paragraph>对后端技术有一定的了解，包括Sql、RESTful API、JWT、Session、cookie等</Paragraph>
           <Paragraph>熟悉数据结构和基本算法</Paragraph>
